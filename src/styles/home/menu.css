@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moon-icons {
+    width: 8vmin;
+    height: 8vmin;
+    border-radius: 50%;
+    /* background-color: aquamarine; */
+    /* overflow: hidden; */
+    font-size: 8vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    position: relative;
+    width: 60vmin;
+    height: 60vmin;
+}
+
+.atom-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-icons {
+    height: 100%;
+    animation: circle 60s linear infinite;
+}
+
+.menu-icons div {
+    position: absolute;
+    top: 44%;
+    transform-origin: 30vmin;
+    transform: rotate(calc(360deg / 8 * var(--i)));
+}
+
+@keyframes circle {
+    100% {
+        transform: rotate(360deg);
+    }    
+}
