@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import './Index2.css'
-import background from "../component/img/back.png";
+
+import '../styles/Timeline/Index2.css'
+import backgrounds from "../assets/images/back.png";
 
  class Index1 extends Component {
     componentDidMount(){
@@ -16,11 +17,11 @@ import background from "../component/img/back.png";
     return (
    <>
  <div class="roadmap">
-        <h3 class="h3" style={ {  backgroundImage: 'url('+background+')' } } >TimeLine</h3>
+        <h3 class="h3" style={ {  backgroundImage: 'url('+backgrounds+')' } } >TimeLine</h3>
         <div class="roadmap-contaoner">
             <div class="container-1">
                   <div class="headline">December 2022</div>
-                    <div class="content">
+                    <div class="contents">
                         <ul class="timeline-list">
                        
                               
@@ -70,7 +71,7 @@ import background from "../component/img/back.png";
 
             <div class="container-2">
                 <div class="headline">January 2022</div>
-                <div class="content">
+                <div class="contents">
                     <ul class="timeline-list">
                         <li class="timeline-list-text">
                             <div class="dot"></div>
@@ -112,7 +113,7 @@ import background from "../component/img/back.png";
 
         <div class="container-2">
             <div class="headline">February 2022</div>
-            <div class="content">
+            <div class="contents">
                 <ul class="timeline-list">
                     <li class="timeline-list-text">
                         <div class="dot"></div>
@@ -161,7 +162,7 @@ import background from "../component/img/back.png";
 
     <div class="container-2">
         <div class="headline">March 2022</div> 
-        <div class="content">
+        <div class="contents">
             <ul class="timeline-list">
                 <li class="timeline-list-text">
                     <div class="dot"></div>
@@ -219,9 +220,6 @@ import background from "../component/img/back.png";
         </div>
     </div>
 
-    <div class="cursor"></div>
-    <div class="cursor2"></div>
-    
 
 
    </>

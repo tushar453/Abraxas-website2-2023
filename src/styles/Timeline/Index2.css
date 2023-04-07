@@ -104,7 +104,7 @@ body{
   
   
   
-  .content{
+  .contents{
   position: relative;
   align-items: flex-end;
   }
@@ -194,15 +194,14 @@ body{
   height:100% ;
   background-color: #fff;
   top: 0;
-
   margin-left: 64px;
   z-index: -1;
   animation:move 3s linear forwards ;
-  box-shadow: 1px 1px 22px 3px #73cdbe ;
+
   }
   
   
-  .content::after{
+  .contents::after{
   content: '';
   position: absolute;
   width: 1px;
